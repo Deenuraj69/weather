@@ -1,0 +1,24 @@
+table caption-top {
+    background-color: transparent;
+    /* Fully transparent background for the table */
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Slight transparency for table cells */
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Darker background for the header with transparency */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Slightly transparent for even rows */
+}
